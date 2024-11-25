@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('restaurant-design.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100vw; 
+    display: flex;
+    flex-direction: column;
+    color: blueviolet;
+}
+
+header {
+    background-color: gold(0, 123, 255, 0.8); 
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+}
+
+#home {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #dee2e6;
+    background: gold(255, 255, 255, 0.9); 
+}
+
+h2 {
+    color: blue; 
+}
+
+.menu-section {
+    margin-top: 2rem;
+}
+
+h3, h4 {
+    color: navy; 
+}
+
+.recipe {
+    margin: 1rem 0;
+}
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.recipe-image:hover {
+    transform: rotate(2deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: rgba(52, 58, 64, 0.8); 
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto; 
+}
